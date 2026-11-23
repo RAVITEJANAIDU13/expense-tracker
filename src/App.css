@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+}
+
+.app {
+  width: 600px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #1f2937;
+}
+
+.expense-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 15px 0;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.expense-card h2 {
+  margin: 0 0 8px;
+  color: #111827;
+}
+
+.expense-card p {
+  margin: 5px 0;
+  color: #4b5563;
+}
+
+button {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b91c1c;
+}
